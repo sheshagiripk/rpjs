@@ -4,8 +4,8 @@ http://rapidprototypingwithjs.com.
 */
 
 $(document).ready(function() {
-	var parseApplicationId="";
-	var parseJavaScriptKey="";
+	var parseApplicationId="UdKqeuffHFQUxTruh3ip3YCZi1wbIAA8P4XcoZ6k";
+	var parseJavaScriptKey="FWN0qYqQzAKl5oeIhKxbluXsT2q8LHiN91mUXAKe";
 	//change parseApplicationId and parseJavaScriptKey to values from Parse.com application dashboard
 	Parse.initialize(parseApplicationId, parseJavaScriptKey);
 	var Test = Parse.Object.extend("Test");

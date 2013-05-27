@@ -1,9 +1,10 @@
-var parseID="your-parse-app-id";
-var parseKey="your-rest-api-key";
+var parseID="UdKqeuffHFQUxTruh3ip3YCZi1wbIAA8P4XcoZ6k";
+var parseKey="7pZjrV85Jb7IdEsJwxUtav4WcSGCXhlZk6BZfkRO";
 
 $(document).ready(function(){
 	getMessages();
 	$("#send").click(function(){
+		alert("Inside send click");
 		var username = $("input[name=username]").attr('value');
 		var message = $("input[name=message]").attr('value');
 		console.log(username)

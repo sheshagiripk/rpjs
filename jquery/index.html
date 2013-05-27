@@ -72,11 +72,11 @@
 				var max=counter[list[i]];
 				var p=0;
 				for (j=i;j<list.length;j++) {
-					if (counter[list[i]]<counter[list[j]]) {
+					if (counter[list[i]]>counter[list[j]]) {
 						p=list[i];
 						list[i]=list[j];
 						list[j]=p;
-						maxC=i;
+						max=i;
 					}
 				}			
 			}
